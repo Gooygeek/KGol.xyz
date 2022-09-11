@@ -1,0 +1,62 @@
+baseURL = "https://kgol.xyz"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+title = "KGOL"
+# copyright = "Copy, _right?_ :thinking_face:"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+  name = "Kieran Goldsworthy"
+  headline = "An awesome person"
+  image = "img/Bowtie_colorcorrected.jpg"  # path relative to static directory
+
+  links = [
+    { blog = { href = "https://blog.kgol.xyz/", text = "Blog" } },
+    { creations = { href = "https://creations.kgol.xyz/", text = "[ Goldsworthy Creations ]" } },
+    { linkedin = "https://www.linkedin.com/in/kierangoldsworthy/" },
+    { github = "https://github.com/Gooygeek" },
+    { gitlab = "https://gitlab.com/kgol" },
+    { codepen = "https://codepen.io/gooygeek" },
+    { medium = "https://medium.com/@gooygeek" },
+    { stack-overflow = { href = "https://stackoverflow.com/users/6709439/user6709439", text = "Stack Overflow" } },
+    { stack-exchange = { href = "https://stackexchange.com/users/9000681/user6709439", text = "Stack Exchange" } },
+
+    # { email = "mailto:hello@your_domain.com" },
+    # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
+    # { apple = "https://www.apple.com" },
+    # { dev = "https://dev.to/username" },
+    # { discord = "https://discord.gg/invitecode" },
+    # { dribbble = "https://dribbble.com/username" },
+    # { facebook = "https://facebook.com/username" },
+    # { flickr = "https://www.flickr.com/photos/username/" },
+    # { foursquare = "https://foursquare.com/username" },
+    # { google = "https://www.google.com/" },
+    # { instagram = "https://instagram.com/username" },
+    # { keybase = "https://keybase.io/username" },
+    # { kickstarter = "https://www.kickstarter.com/profile/username" },
+    # { lastfm = "https://lastfm.com/user/username" },
+    # { mastodon = "https://mastodon.instance/@username" },
+    # { microsoft = "https://www.microsoft.com/" },
+    # { patreon = "https://www.patreon.com/username" },
+    # { pinterest = "https://pinterest.com/username" },
+    # { reddit = "https://reddit.com/user/username" },
+    # { slack = "https://workspace.url/team/userid" },
+    # { snapchat = "https://snapchat.com/add/username" },
+    # { soundcloud = "https://soundcloud.com/username" },
+    # { steam = "https://steamcommunity.com/profiles/userid" },
+    # { telegram = "https://t.me/username" },
+    # { tiktok = "https://tiktok.com/@username" },
+    # { tumblr = "https://username.tumblr.com" },
+    # { twitch = "https://twitch.tv/username" },
+    # { twitter = "https://twitter.com/username" },
+    # { whatsapp = "https://wa.me/phone-number" },
+    # { youtube = "https://youtube.com/username" },
+  ]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"

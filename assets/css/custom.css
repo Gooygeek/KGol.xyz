@@ -1,0 +1,21 @@
+.link-blog {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg,
+            rgba(131, 58, 180, 1) 0%,
+            rgba(253, 29, 29, 1) 50%,
+            rgba(252, 176, 69, 1) 100%);
+}
+
+.link-creations {
+    color: #d8d8d8;
+    background: #000000;
+}
+
+.link-stack-overflow {
+    background: linear-gradient(-120deg, #f48024, #bcbbbb);
+}
+
+
+.link-stack-exchange {
+    background: linear-gradient(-120deg, #1e5397, #376db6, #4ca2da, #91d8f4);
+}
