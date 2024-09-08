@@ -16,6 +16,7 @@ disableKinds = ["taxonomy", "term"]
   links = [
     { blog = { href = "https://blog.kgol.xyz/", text = "Blog" } },
     { creations = { href = "https://creations.kgol.xyz/", text = "[ Goldsworthy Creations ]" } },
+    { sad-computer = { href = "https://sad-computer.com/", text = "Sad Computer" } },
     { linkedin = "https://www.linkedin.com/in/kierangoldsworthy/" },
     { mastodon = "https://fosstodon.org/@kgol/" },
     { github = "https://github.com/Gooygeek" },

@@ -11,6 +11,12 @@
     background: #000000;
 }
 
+.link-sad-computer {
+    color: #702e10;
+    background: #eb630d;
+    font-weight: bold;
+}
+
 .link-stack-overflow {
     background: linear-gradient(-120deg, #f48024, #bcbbbb);
 }
